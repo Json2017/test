@@ -19,6 +19,8 @@
     [self sayHello];
     
     [self sayBye];
+    
+    [self output];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -31,5 +33,8 @@
 }
 -(void)sayBye{
     NSLog(@"Bye");
+}
+-(void)output{
+    NSLog(@"HelloWorld!");
 }
 @end
